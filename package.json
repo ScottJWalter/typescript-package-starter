@@ -1,7 +1,7 @@
 {
   "name": "typescript-package-starter",
   "version": "1.1.0",
-  "description": "TypeScript boilerplate for NPM or Github Packages",
+  "description": "TypeScript boilerplate for NPM or Github Packages (test package)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -15,11 +15,11 @@
     "npm packages",
     "boilerplate"
   ],
-  "author": "Dale Nguyen",
+  "author": "Scott Walter",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dalenguyen/typescript-package-starter.git"
+    "url": "git+https://github.com/scottjwalter/typescript-package-starter.git"
   },
   "devDependencies": {
     "@types/chai": "^4.2.11",
@@ -36,6 +36,6 @@
     "node": ">=8"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@dalenguyen"
+    "registry": "https://npm.pkg.github.com/@scottjwalter"
   }
 }
