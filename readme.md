@@ -1,4 +1,4 @@
-[![ISC license](https://img.shields.io/badge/License-ISC-blue.svg)](https://www.isc.org/licenses/)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![No Maintenance Intended](https://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 ![node-current](https://img.shields.io/node/v/ifttt-cli?registry_url=https%3A%2F%2Fnpm.pkg.github.com%2F%26scottjwalter)
 
