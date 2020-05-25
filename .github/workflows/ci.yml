@@ -6,14 +6,18 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [ '8', '10', '12' ]
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js 8.x
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Set up Node.js ${{ matrix.node }}
       uses: actions/setup-node@v1
       with:
         registry-url: https://npm.pkg.github.com/
-        node-version: 8.x
+        node-version: ${{ matrix.node }}
         scope: '@scottjwalter'
     - name: npm install, build, and test
       run: |
